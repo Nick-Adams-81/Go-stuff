@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("Hello, Go")
+	x := 5
+	y := 7
+	sum := x + y
+	fmt.Print(sum)
 }
