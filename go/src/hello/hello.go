@@ -31,10 +31,16 @@ func main() {
 	c := [5]int{5, 4, 3, 2, 1}
 	fmt.Println(c)
 
-	// slice of ints
+	// slice of ints so you can add onto array
 	d := []int{6, 7, 8, 9, 10}
 	d = append(d, 12)
-
 	fmt.Println(d)
+
+	// maps
+	verticles := make(map[string]int)
+	verticles["triangle"] = 2
+	verticles["square"] = 3
+	verticles["circle"] = 11
+	fmt.Println(verticles["square"])
 
 }
