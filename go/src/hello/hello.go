@@ -20,6 +20,7 @@ func main() {
 	}
 
 	// Basic array //
+
 	// long hand array init
 	var b [5]int
 	b[0] = 1
@@ -28,7 +29,12 @@ func main() {
 
 	// short hand array int
 	c := [5]int{5, 4, 3, 2, 1}
-
 	fmt.Println(c)
+
+	// slice of ints
+	d := []int{6, 7, 8, 9, 10}
+	d = append(d, 12)
+
+	fmt.Println(d)
 
 }
