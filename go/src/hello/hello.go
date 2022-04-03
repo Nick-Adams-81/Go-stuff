@@ -19,4 +19,16 @@ func main() {
 		fmt.Println("less than two")
 	}
 
+	// Basic array //
+	// long hand array init
+	var b [5]int
+	b[0] = 1
+	b[1] = 6
+	fmt.Println(b)
+
+	// short hand array int
+	c := [5]int{5, 4, 3, 2, 1}
+
+	fmt.Println(c)
+
 }
