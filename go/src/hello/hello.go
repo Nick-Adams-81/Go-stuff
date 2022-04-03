@@ -9,7 +9,7 @@ func main() {
 	sum := x + y
 	fmt.Println(sum)
 
-	// Basic for loop
+	// Basic if else
 	a := 1
 	if a > 6 {
 		fmt.Println("more than six")
@@ -38,9 +38,24 @@ func main() {
 
 	// maps
 	verticles := make(map[string]int)
+
 	verticles["triangle"] = 2
 	verticles["square"] = 3
 	verticles["circle"] = 11
+
+	delete(verticles, "circle")
 	fmt.Println(verticles["square"])
+
+	// go for loop
+	for i := 0; i <= 5; i++ {
+		fmt.Println(i)
+	}
+
+	// go while loop
+	i := 0
+	for i < 5 {
+		fmt.Println(i)
+		i++
+	}
 
 }
