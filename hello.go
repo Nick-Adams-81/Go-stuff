@@ -1,8 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"rsc.io/quote"
+	// "example.com/greetings"
+)
 
 func main() {
+
+	fmt.Println(quote.Glass())
 	// Basic math stuff
 	x := 5
 	y := 7
@@ -65,4 +72,6 @@ func main() {
 		fmt.Println("index", index, "value", value)
 	}
 
+	// message := greetings.Hello("Nick")
+	// fmt.Println(message)
 }
